@@ -1,9 +1,14 @@
 <?php
+    // $server = 'sql213.infinityfree.com'; 
+    // $user = 'if0_36669296'; 
+    // $password = 'hEIoSz9eMy03'; 
+    // $db = 'karaokedacasa.rf.gd';
+
     $server = 'localhost'; 
     $user = 'root'; 
     $password = ''; 
     $db = 'karaoke_da_casa';
-
+    
     Function banco($server, $user, $password, $db, $consulta){
         $banco = new mysqli($server, $user, $password, $db);
         if ($banco -> connect_error) {
